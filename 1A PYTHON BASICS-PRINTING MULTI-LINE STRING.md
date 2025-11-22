@@ -1,31 +1,34 @@
-# Experiment No: 1a Complex Number Representation and Real-Part Extraction in Python
+# Experiment No: 1a Boolean Values in Python and Their Numeric Behaviour
 
 ## AIM  
 To create a Python program to print the string in multiple lines using triple quotes.
 
 ## ALGORITHM  
-1.Start
-2.Read the first input and store it in variable a (this represents the real part).
-3.Read the second input and store it in variable b (this represents the imaginary part).
-4.Create a complex number using the values a and b and store it in variable x.
-5.Display the complex number x.
-6.Extract the real part of the complex number using x.real.
-7.Display the real part.
-8.End
+1.Start the program.
+2.Compare 1 with True and store the result in a.
+3.Compare 0 with False and store the result in b.
+4.Add True to 5 and store the result in c (True = 1).
+5.Add False to 9 and store the result in d (False = 0).
+6.Print the values of a, b, c, and d.
+7.End the program.
 
 ## PROGRAM
 ```python
-a=int(input())
-b=int(input())
-x=complex(a,b)
-print(x)
-print(x.real)
+a = (1 == True)
+b = (0==False)
+c = True + 5
+d = False + 9
+print("a is", a)
+print("b is", b)
+print("c:", c)
+print("d:", d)
 ```
 ## OUTPUT
 
-<img width="1173" height="286" alt="image" src="https://github.com/user-attachments/assets/c55954f6-862e-4db5-851b-b410a0aaeb49" />
+<img width="1161" height="253" alt="image" src="https://github.com/user-attachments/assets/4904a175-ec03-4ffe-83c6-f1853a210a50" />
+
 
 ## RESULT
 ```
-The program successfully accepts two user inputs, forms a complex number, and displays it. It correctly extracts and prints the real part, demonstrating proper handling of complex data types in Python.
+The program was executed and verified successfully. It shows that Boolean values behave like integers, where True equals 1 and False equals 0, and the computed outputs are displayed correctly.
 ```
