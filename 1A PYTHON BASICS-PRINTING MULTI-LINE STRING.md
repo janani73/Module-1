@@ -4,6 +4,7 @@
 To write a Python program that demonstrates how Boolean values behave like integers by performing comparisons and arithmetic operations using True and False, and displaying the resulting outputs.
 
 ## ALGORITHM  
+```
 1.Start the program.
 2.Compare 1 with True and store the result in a.
 3.Compare 0 with False and store the result in b.
@@ -11,7 +12,7 @@ To write a Python program that demonstrates how Boolean values behave like integ
 5.Add False to 9 and store the result in d (False = 0).
 6.Print the values of a, b, c, and d.
 7.End the program.
-
+```
 ## PROGRAM
 ```python
 a = (1 == True)
