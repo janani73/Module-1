@@ -1,26 +1,29 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
+# Experiment No: 1c-Arithmetic Expression Evaluation in Python
 
 ## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
+To write a Python program that reads three numbers from the user and evaluates the arithmetic expression a + b * c – a / b, then displays the result.
 
 ## ALGORITHM
-1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
-6. Terminate the program.
+```
+1.Start the program.
+2.Read three integer inputs: a, b, and c.
+3.Calculate the expression using the formula: a + b * c – a / b.
+4.Print the final result.
+5.End the program.
+```
 
 ## PROGRAM
 ```python
-# Reg.No-
-#Name-
-#Write your code here
+a=int(input())
+b=int(input())
+c=int(input())
+print(a+b*c-a/b)
 
 ```
 
 ## OUTPUT
+<img width="1171" height="332" alt="image" src="https://github.com/user-attachments/assets/746b9366-551c-404d-9ede-7b7e10adc5cd" />
 
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+The program successfully reads three numbers from the user, evaluates the arithmetic expression using Python’s operator precedence, and prints the correct computed output.
