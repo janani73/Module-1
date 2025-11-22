@@ -1,7 +1,7 @@
 # Experiment No: 1a Boolean Values in Python and Their Numeric Behaviour
 
 ## AIM  
-To create a Python program to print the string in multiple lines using triple quotes.
+To write a Python program that demonstrates how Boolean values behave like integers by performing comparisons and arithmetic operations using True and False, and displaying the resulting outputs.
 
 ## ALGORITHM  
 1.Start the program.
