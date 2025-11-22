@@ -29,6 +29,6 @@ print("d:", d)
 
 
 ## RESULT
-```
+
 The program was executed and verified successfully. It shows that Boolean values behave like integers, where True equals 1 and False equals 0, and the computed outputs are displayed correctly.
-```
+
